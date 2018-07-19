@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Larabie');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body{
+    color: ghostwhite;
+    font-family: 'Larabie';
+    text-align: center;
+    align-content: center;
+    background-color: black;
+}    
+nav {
+    width: 100%;
+    display:block; 
+    text-align:center;
+}
+nav a {
+    width: 25%;
+    float: left;
+    background-color: dimgrey;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    transition: 0.25s;
+}
+nav a:hover {
+    background-color: grey;
+}
+li, p1 {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.oof {
+    background-color: white;
+    padding-top: 3%;
+}
+.oof > h1 {
+    background-color: white;
+    font-size: 75px;
+    color: black;
+    float: left;
+    height: 150px;
+    width: 100%;
+}
+
+.infoCard {
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    border: 0px;
+    float: left;
+}
+
+.halfway {
+    background-color: white;
+    float: left;
+    width: 50%;
+    margin: 0px;
+    padding: 0px 1em;
+    border: 0px;
+    display: block;
+}
+
+.halfway > h1, .halfway > img, .halfway > p {
+    width: 100%;
+    float: left;
+}
+
+.halfway > h1 {
+    color: black;
+}
+
+.halfway > p {
+    color: black;
+    margin-top: 1em;
+    font-size: 1.75em;
+}
+#HERE a {
+    color: red;
+    text-decoration: none;
+}
+
+p4{
+  color: darkgrey;
+}
+
+ {box-sizing: border-box;}
+.img-zoom-container {
+  position: relative;
+
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 60px;
+  height: 60px;
+  left: 30%;
+}
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 350px;
+  height: 350px;
+  position: relative;
+  left: 40%;
+}
